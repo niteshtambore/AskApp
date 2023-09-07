@@ -1,5 +1,6 @@
 import streamlit as st
 import pyperclip
+import os
 from langchain.llms import OpenAI
 
 # Set the page title and icon
@@ -9,7 +10,7 @@ st.set_page_config(page_title="Langchain Demo", page_icon=":robot:")
 st.header("ASK")
 
 # Set the OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your key here"
 
 # Initialize the text variable with an empty string
 text = ""

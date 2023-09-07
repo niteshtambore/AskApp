@@ -15,3 +15,5 @@ Step 3 : os.environ["OPENAI_API_KEY"] = "Your API key here, you can find it here
 Step 4 : streamlit run app.py (write this code in terminal, you should be in specified folder where app.py is present, if not use cd to change the path), if not working use the command in this format (streamlit run e:/LLM/AskApp/AskApp/ask.py)
 
 Step 5 : The app will open in a browser tab, and you can ASK anything to it and copy the answer
+
+![ask1](https://github.com/niteshtambore/AskApp/assets/98801322/0d670ce6-b531-439c-9984-3aa201036337)
